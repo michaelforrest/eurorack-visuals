@@ -15,6 +15,7 @@
 		AC6D016321F8B3670085B827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6D016121F8B3670085B827 /* Main.storyboard */; };
 		AC6D016521F8B3680085B827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6D016421F8B3680085B827 /* Assets.xcassets */; };
 		AC6D016821F8B3680085B827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6D016621F8B3680085B827 /* LaunchScreen.storyboard */; };
+		AC6D017021F8BCE80085B827 /* BluetoothSerial.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6D016F21F8BCE80085B827 /* BluetoothSerial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AC6D016421F8B3680085B827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6D016721F8B3680085B827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6D016921F8B3680085B827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6D016F21F8BCE80085B827 /* BluetoothSerial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothSerial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		AC6D015621F8B3670085B827 /* EuroVizDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AC6D016F21F8BCE80085B827 /* BluetoothSerial.swift */,
 				AC6D015721F8B3670085B827 /* AppDelegate.swift */,
 				AC6D015921F8B3670085B827 /* GameScene.sks */,
 				AC6D015B21F8B3670085B827 /* Actions.sks */,
@@ -148,6 +151,7 @@
 			files = (
 				AC6D015E21F8B3670085B827 /* GameScene.swift in Sources */,
 				AC6D016021F8B3670085B827 /* GameViewController.swift in Sources */,
+				AC6D017021F8BCE80085B827 /* BluetoothSerial.swift in Sources */,
 				AC6D015821F8B3670085B827 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNRLJ4WU59;
 				INFOPLIST_FILE = EuroVizDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TNRLJ4WU59;
 				INFOPLIST_FILE = EuroVizDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
